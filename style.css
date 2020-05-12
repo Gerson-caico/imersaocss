@@ -1,0 +1,39 @@
+/* Aula inicial :D */
+
+body {
+    background: #000000;
+    background-size: auto 100vh;
+    font-family: calibri;
+    height: 100vh;
+}
+
+.menu {
+    background-color: #ffff00;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.site-title,
+.site-subtitle {
+    color: white;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
